@@ -3,7 +3,7 @@ Generates a textbook index in Java using Binary Search Trees, queues, and recurs
 
 Project Details:
 - Case is not considered.
-- File of stop words is provided (filename stopFile.txt)
+- File of stop words is provided (filename stopFile.txt; based on General Service List)
 - File of text to be indexed must first be filtered to remove stop words.
 - Sample files to index may include punctuation that should be removed.
   - Examples: quotation marks; ending apostrophes for plural possessives
