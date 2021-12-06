@@ -9,8 +9,8 @@ Project Details:
   - Examples: quotation marks; ending apostrophes for plural possessives
 - Sample files to index may contain names whose apostrophes, accents, or other diacritical marks need to be preserved.
 - Two files will be output:
-  - A file named "filterResults.txt" containing the stop words tree
-  - A file named "indexResults.txt" containing the indexed words
+  - A file named "filterResults.txt" containing an alphabetized list of stop words
+  - A file named "indexResults.txt" containing an alphabetized index, with word count
 
 To Run from Terminal using Ant (requires Ant install):
 - Select a sample input file and copy into a main directory.
