@@ -5,9 +5,9 @@ Project Details:
 - Case is not considered.
 - File of stop words is provided (filename stopFile.txt; based on General Service List)
 - File of text to be indexed must first be filtered to remove stop words.
-- Sample files to index may include punctuation that should be removed.
+- Sample text files for indexing may include punctuation that should be removed.
   - Examples: quotation marks; ending apostrophes for plural possessives
-- Sample files to index may contain names whose apostrophes, accents, or other diacritical marks need to be preserved.
+- Sample text files for indexing may contain names whose apostrophes, accents, or other diacritical marks need to be preserved.
 - Two files will be output:
   - A file named "filterResults.txt" containing an alphabetized list of stop words
   - A file named "indexResults.txt" containing an alphabetized index, with word count
