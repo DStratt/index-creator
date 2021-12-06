@@ -8,6 +8,7 @@ Project Details:
 - Sample files to index may include punctuation that should be removed.
   - Examples: quotation marks; ending apostrophes for plural possessives
 - Sample files to index may contain names whose apostrophes, accents, or other diacritical marks need to be preserved.
+- Re: output, the filename for the stop words tree will be "filterResults.txt" and the filename for indexed words will be "indexResults.txt".
 
 To Run from Terminal using Ant (requires Ant install):
 - Select a sample input file, copy into a main directory, and rename to "textFile.txt".
