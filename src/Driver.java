@@ -5,10 +5,10 @@
  */
 
 public class Driver
-{ //start of class Driver
+{
 
 	public static void main(String[] args)
-	{ //start of method main
+	{
 		
 		String stopFile = null; //filename for stop words file
 		String textFile = null; //filename for text file to be indexed
@@ -32,6 +32,6 @@ public class Driver
 		//Declare and instantiate a new Indexer object using filename variables
 		Indexer index = new Indexer(stopFile, textFile);
 		
-	} //end of method main
+	}
 
-} //end of class Driver
+}
