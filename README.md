@@ -8,13 +8,16 @@ Project Details:
 - Sample files to index may include punctuation that should be removed.
   - Examples: quotation marks; ending apostrophes for plural possessives
 - Sample files to index may contain names whose apostrophes, accents, or other diacritical marks need to be preserved.
-- Re: output, the filename for the stop words tree will be "filterResults.txt" and the filename for indexed words will be "indexResults.txt".
+- Two files will be output:
+  - A file named "filterResults.txt" containing the stop words tree
+  - A file named "indexResults.txt" containing the indexed words
 
 To Run from Terminal using Ant (requires Ant install):
-- Select a sample input file, copy into a main directory, and rename to "textFile.txt".
+- Select a sample input file and copy into a main directory.
 - Copy build.xml file and stopFile.txt into main directory.
 - Copy src folder into main directory.
-- In main directory, enter "ant run" command.
+- In main directory, enter the following command
+  - "ant run -Dargs0=stopFile.txt -Dargs1=`inputFilename.tx`" (replacing `inputFilename.txt` with the actual input filename).
 
 To run from Terminal without Ant:
 - Copy all java files into a main directory.
